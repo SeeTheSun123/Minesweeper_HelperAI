@@ -684,28 +684,28 @@ def game(rows, cols, bombs):
     noOfFlags = 0  # Variable to count how many flags the user has placed
 
     """Initialize/Load all the images"""
-    grey = pygame.image.load("grey.png")  # Hidden Squares
-    safe = pygame.image.load("safe.png")  # Hidden Squares marked safe by the AI
+    grey = pygame.image.load("Images/grey.png")  # Hidden Squares
+    safe = pygame.image.load("Images/safe.png")  # Hidden Squares marked safe by the AI
 
-    AMN_Tip = pygame.image.load("AMN.png")  # AMN Tooltip
-    AFN_Tip = pygame.image.load("AFN.png")  # AFN Tooltip
-    CSP_Tip = pygame.image.load("CSP.png")  # CSP Tooltip
-    AIMove_Tip = pygame.image.load("Take.png")  # AI Move Actions Tooltip
-    Reset_Tip = pygame.image.load("black.png")  # Reset Tooltip area
+    AMN_Tip = pygame.image.load("Images/Hints LOL/AMN.png")  # AMN Tooltip
+    AFN_Tip = pygame.image.load("Images/Hints LOL/AFN.png")  # AFN Tooltip
+    CSP_Tip = pygame.image.load("Images/Hints LOL/CSP.png")  # CSP Tooltip
+    AIMove_Tip = pygame.image.load("Images/Hints LOL/Take.png")  # AI Move Actions Tooltip
+    Reset_Tip = pygame.image.load("Images/Hints LOL/black.png")  # Reset Tooltip area
 
-    zero = pygame.image.load("zero.png")
-    one = pygame.image.load("one.png")
-    two = pygame.image.load("two.png")
-    three = pygame.image.load("three.png")
-    four = pygame.image.load("four.png")
-    five = pygame.image.load("five.png")
-    six = pygame.image.load("six.png")
-    seven = pygame.image.load("seven.png")
-    eight = pygame.image.load("eight.png")
-    nine = pygame.image.load("nine.png")
+    zero = pygame.image.load("Images/zero.png")
+    one = pygame.image.load("Images/one.png")
+    two = pygame.image.load("Images/two.png")
+    three = pygame.image.load("Images/three.png")
+    four = pygame.image.load("Images/four.png")
+    five = pygame.image.load("Images/five.png")
+    six = pygame.image.load("Images/six.png")
+    seven = pygame.image.load("Images/seven.png")
+    eight = pygame.image.load("Images/eight.png")
+    nine = pygame.image.load("Images/nine.png")
 
-    flag = pygame.image.load("flag.png")  # Flagged by user
-    flagAI = pygame.image.load("flagAI.png")  # Flagged by AI
+    flag = pygame.image.load("Images/flag.png")  # Flagged by user
+    flagAI = pygame.image.load("Images/flagAI.png")  # Flagged by AI
 
     # Array of images to show correct image based on the Square.val
     numbers = [zero, one, two, three, four, five, six, seven, eight, nine]
